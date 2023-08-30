@@ -24,10 +24,11 @@ class AuthController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'user_email'         =>  'required|email',
-            'user_name'          =>  'required',
-            'user_password'      =>  'required',
-            'user_confirm'  => 'required|same:user_password',
+            'user_email'         =>  'required|email|',
+            'user_name'          =>  'required|',
+            'user_fullname'     => ['required', 'regex:/^[A-Za-zÀ-Ỹà-ỹ\s]+$/u'],
+            'user_password'      =>  'required|min:8|max:256|',
+            'user_confirm'  => 'required|same:user_password|min:8|max:256|',
         ]);
 
         try {
@@ -44,7 +45,7 @@ class AuthController extends Controller
             $userdetail->save();
             return redirect()->route('auth.loginuser')->with('success','Register succesfully');
         } catch (\Exception $e) {
-            return redirect()->route('auth.register')->with('failed','Register failed');
+            return redirect()->route('auth.register');
         }
     }
 

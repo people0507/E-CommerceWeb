@@ -73,30 +73,30 @@
                             <span class="badge border font-weight-normal"></span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="catrgory-4" name="categories[]" value="5">
+                            <input type="checkbox" class="custom-control-input" id="catrgory-4" name="categories[]" value="4">
                             <label class="custom-control-label" for="catrgory-4">Washing Machine</label>
                             <span class="badge border font-weight-normal"></span>
                         </div>
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="catrgory-5" name="categories[]" value="7">
+                            <input type="checkbox" class="custom-control-input" id="catrgory-5" name="categories[]" value="5">
                             <label class="custom-control-label" for="catrgory-5">Fridge</label>
                             <span class="badge border font-weight-normal"></span>
                         </div>
                         
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="catrgory-6" name="categories[]" value="8">
+                            <input type="checkbox" class="custom-control-input" id="catrgory-6" name="categories[]" value="6">
                             <label class="custom-control-label" for="catrgory-6">Smart Watch</label>
                             <span class="badge border font-weight-normal"></span>
                         </div>
 
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="catrgory-7" name="categories[]" value="9">
+                            <input type="checkbox" class="custom-control-input" id="catrgory-7" name="categories[]" value="7">
                             <label class="custom-control-label" for="catrgory-7">Smart Phone</label>
                             <span class="badge border font-weight-normal"></span>
                         </div>
 
                         <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
-                            <input type="checkbox" class="custom-control-input" id="catrgory-8" name="categories[]" value="15">
+                            <input type="checkbox" class="custom-control-input" id="catrgory-8" name="categories[]" value="8">
                             <label class="custom-control-label" for="catrgory-8">AC</label>
                             <span class="badge border font-weight-normal"></span>
                         </div>
