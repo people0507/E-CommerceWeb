@@ -106,11 +106,9 @@
                 <form action="{{route('client.shopsearch')}}" method="GET">
                     <div class="input-group">
                         <input type="text" class="form-control" placeholder="Search for products" name ="query" >
-                        <div class="input-group-append">
-                            <span class="input-group-text bg-transparent text-primary">
+                        <button type="submit" class="input-group-text bg-transparent text-primary">
                                 <i class="fa fa-search"></i>
-                            </span>
-                        </div>
+                    </button>
                     </div>
                 </form>
             </div>

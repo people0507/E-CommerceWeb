@@ -12,7 +12,7 @@ class ShopController extends Controller
     {
         $products = Product::paginate(9);
         $pricecounts = [
-            'all' => Product::all()->count(),
+            'all' => Product::count(),
             '0-10000000' => Product::whereBetween('product_price', [0, 10000000])->count(),
             '10000000-15000000' => Product::whereBetween('product_price', [10000000, 15000000])->count(),
             '15000000-25000000' => Product::whereBetween('product_price', [15000000, 25000000])->count(),
@@ -31,7 +31,7 @@ class ShopController extends Controller
                      ->paginate(9);
 
         $pricecounts = [
-            'all' => Product::all()->count(),
+            'all' => Product::count(),
             '0-10000000' => Product::whereBetween('product_price', [0, 10000000])->count(),
             '10000000-15000000' => Product::whereBetween('product_price', [10000000, 15000000])->count(),
             '15000000-25000000' => Product::whereBetween('product_price', [15000000, 25000000])->count(),
@@ -44,7 +44,7 @@ class ShopController extends Controller
     public function searchbydecrease()
     {
         $pricecounts = [
-            'all' => Product::all()->count(),
+            'all' => Product::count(),
             '0-10000000' => Product::whereBetween('product_price', [0, 10000000])->count(),
             '10000000-15000000' => Product::whereBetween('product_price', [10000000, 15000000])->count(),
             '15000000-25000000' => Product::whereBetween('product_price', [15000000, 25000000])->count(),
@@ -58,7 +58,7 @@ class ShopController extends Controller
     public function searchbyincrease()
     {
         $pricecounts = [
-            'all' => Product::all()->count(),
+            'all' => Product::count(),
             '0-10000000' => Product::whereBetween('product_price', [0, 10000000])->count(),
             '10000000-15000000' => Product::whereBetween('product_price', [10000000, 15000000])->count(),
             '15000000-25000000' => Product::whereBetween('product_price', [15000000, 25000000])->count(),
@@ -108,7 +108,7 @@ class ShopController extends Controller
         }
 
         $pricecounts = [
-            'all' => Product::all()->count(),
+            'all' => Product::count(),
             '0-10000000' => Product::whereBetween('product_price', [0, 10000000])->count(),
             '10000000-15000000' => Product::whereBetween('product_price', [10000000, 15000000])->count(),
             '15000000-25000000' => Product::whereBetween('product_price', [15000000, 25000000])->count(),
