@@ -9,7 +9,7 @@
     <title>ISHEEP WORLD</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-
+    <link rel="icon" href="{{ asset('images/pages/cart_icon.png') }}" type="image/x-icon" sizes="16x16">
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 

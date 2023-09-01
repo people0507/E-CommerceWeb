@@ -34,17 +34,17 @@
                         @endif
                         <div class="control-group p-1 rounded">
                             <label class="" for="username">User Name</label>
-                            <input type="text" class="form-control " name="user_name"  placeholder="User Name" minlength="8" maxlength="256" pattern=".{8,256}" title="The user name must be at least 8 characters and no more than 256 characters"/>
+                            <input type="text" class="form-control " name="user_name"  placeholder="User Name"  maxlength="256"/>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group p-1 rounded">
                             <label class="" for="username">Full Name</label>
-                            <input type="text" class="form-control " name="user_fullname"  placeholder="Full Name" minlength="8" maxlength="256" pattern=".{8,256}" title="The name must be at least 8 characters and no more than 256 characters"/>
+                            <input type="text" class="form-control " name="user_fullname"  placeholder="Full Name"  maxlength="256" />
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group p-1">
                             <label class="" for="username">User Email</label>
-                            <input type="text" class="form-control " name="user_email" placeholder="Your Email" minlength="8" maxlength="256" pattern=".{8,256}" title="The email must be at least 8 characters and no more than 256 characters"/>
+                            <input type="text" class="form-control " name="user_email" placeholder="Your Email"  maxlength="256"/>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group p-1">
