@@ -53,7 +53,7 @@
                         </div>
                         <div class="control-group p-1">
                         <label  for="username">Password</label>
-                            <input type="password" class="form-control"  placeholder="*********" name="password" minlength="8" maxlength="256" pattern=".{8,256}" title="The password must be at least 8 characters and no more than 256 characters"/>
+                            <input type="password" class="form-control"  placeholder="*********" name="password" minlength="8" maxlength="50" pattern=".{8,50}" title="The password must be at least 8 characters and no more than 50 characters"/>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="p-1">

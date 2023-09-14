@@ -74,21 +74,21 @@
                             <li class="submenu-item border-t mt-2 border-light-border w-full h-full px-2 py-3">
                                 <a href="{{ route('category.index') }}"
                                    class="mx-4 font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
-                                    Category Infomation
+                                    Category Information
                                     <span><i class="fa fa-angle-right float-right"></i></span>
                                 </a>
                             </li>
                             <li class="submenu-item border-t border-light-border w-full h-full px-2 py-3">
                                 <a href="{{ route('producer.index') }}"
                                    class="mx-4 font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
-                                    Producer Infomation
+                                    Producer Information
                                     <span><i class="fa fa-angle-right float-right"></i></span>
                                 </a>
                             </li>
                             <li class="submenu-item border-t border-light-border w-full h-full px-2 py-3">
                                 <a href="{{ route('product.index') }}"
                                    class="mx-4 font-sans font-hairline hover:font-normal text-sm text-nav-item no-underline">
-                                    Product Infomation
+                                    Product Information
                                     <span><i class="fa fa-angle-right float-right"></i></span>
                                 </a>
                             </li>

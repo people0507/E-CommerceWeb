@@ -23,16 +23,14 @@
                     <form action="{{ route('client.changePassword') }}" method="POST"  >
                         @csrf
                     <p class="text-center font-weight-bold">Change Your Password</p>
-                    <div class="alert danger-alert">
-                    </div>
                         <div class="control-group p-1">
                         <label  for="username">New Password</label>
-                            <input type="password" class="form-control "  placeholder="Type your new password" name="user_password" />
+                            <input type="password" class="form-control "  placeholder="Type your new password" name="user_password"  minlength="8" maxlength="50" pattern=".{8,50}" title="The password must be at least 8 characters and no more than 50 characters"/>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="control-group p-1">
                         <label  for="username">Confirm Password</label>
-                            <input type="password" class="form-control "  placeholder="Confirm your password" name="confirm_password" />
+                            <input type="password" class="form-control "  placeholder="Confirm your password" name="confirm_password"  minlength="8" maxlength="50" pattern=".{8,50}" title="The password must be at least 8 characters and no more than 50 characters"/>
                             <p class="help-block text-danger"></p>
                         </div>
                         <div class="p-1">

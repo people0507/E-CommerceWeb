@@ -122,7 +122,7 @@
                                     <div class="dropdown-menu dropdown-menu-right">
                                         <a class="dropdown-item" href="{{ route('client.shoppage') }}">Price - All</a>
                                         <a class="dropdown-item" href="{{ route('client.searchbydecrease') }}">Price - High to Low</a>
-                                        <a class="dropdown-item" href="{{ route('client.searchbyincrease') }}">Price - Price to High</a>
+                                        <a class="dropdown-item" href="{{ route('client.searchbyincrease') }}">Price - Low to High</a>
                                     </div>
                                 </div>
                                 <div class="btn-group ml-2">
