@@ -54,7 +54,6 @@ class ProductController extends Controller
             'producer_id' => 'required',
         ]);
 
-        
         try {
             $product = new Product;
             $product->product_name = $request->product_name;
