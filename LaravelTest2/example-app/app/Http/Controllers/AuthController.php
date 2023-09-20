@@ -30,7 +30,7 @@ class AuthController extends Controller
             'user_password'      =>  'required|min:8|max:256|',
             'user_confirm'  => 'required|same:user_password|min:8|max:256|',
         ]);
-
+ 
         try {
             $user = new User;
             $user->user_email = $request->user_email;
